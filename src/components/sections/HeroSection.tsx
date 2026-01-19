@@ -27,7 +27,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-lg md:text-xl opacity-80 max-w-2xl mb-12 font-light leading-relaxed">
-          Factorial IT brings clarity, security, and control to growing creative teams without adding friction.
+          A comprehensive IT Asset Management platform designed specifically for creative production studios.
         </p>
 
         <button
