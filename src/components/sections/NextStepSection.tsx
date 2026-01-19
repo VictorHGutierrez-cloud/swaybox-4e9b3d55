@@ -18,6 +18,9 @@ const NextStepSection = () => {
           <p className="text-2xl md:text-3xl font-light">
             It is an operational decision.
           </p>
+          <p className="text-base opacity-60 pt-4 max-w-xl mx-auto">
+            Factorial IT's comprehensive solution addresses all core pain points, providing complete visibility, automated management, and enterprise-grade security for high-profile productions.
+          </p>
         </div>
         
         <a
@@ -26,6 +29,10 @@ const NextStepSection = () => {
         >
           Schedule a working session
         </a>
+
+        <p className="mt-16 text-xs opacity-40">
+          Document prepared for Swaybox Studios Partnership — 2026
+        </p>
       </div>
     </section>
   );
