@@ -47,6 +47,10 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Custom Factorial IT × Swaybox palette
+        "dark-craft": "hsl(var(--dark-craft))",
+        industrial: "hsl(var(--industrial))",
+        "pure-white": "hsl(var(--pure-white))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
