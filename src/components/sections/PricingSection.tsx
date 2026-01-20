@@ -8,7 +8,7 @@ const pricingData = [
     pricePerEmployee: "€11.50",
     discountedPrice: "€1,610",
     discountedPerEmployee: "€8.05",
-    recommended: false,
+    recommended: true,
   },
   {
     scenario: "Bundle (MDM + SaaS Management) + ThreatDown EDR",
@@ -26,7 +26,7 @@ const pricingData = [
     pricePerEmployee: "€16.50",
     discountedPrice: "€2,310",
     discountedPerEmployee: "€11.55",
-    recommended: true,
+    recommended: false,
   },
   {
     scenario: "Bundle (MDM + SaaS Management) + SentinelOne Complete",
@@ -68,7 +68,7 @@ const PricingSection = () => {
                 <TableHead className="text-white/60 font-normal text-center bg-white/5">
                   <div className="flex flex-col">
                     <span className="text-xs text-white/40">Discounted</span>
-                    <span>Per Employee</span>
+                    <span>Final Price Per Employee</span>
                   </div>
                 </TableHead>
               </TableRow>
