@@ -2,7 +2,7 @@ import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@
 
 const pricingData = [
   {
-    scenario: "Bundle only",
+    scenario: "Bundle (MDM + SaaS Management) only",
     employees: 200,
     monthlyPrice: "€2,300",
     pricePerEmployee: "€11.50",
@@ -11,7 +11,7 @@ const pricingData = [
     recommended: false,
   },
   {
-    scenario: "Bundle + ThreatDown EDR",
+    scenario: "Bundle (MDM + SaaS Management) + ThreatDown EDR",
     employees: 200,
     monthlyPrice: "€3,100",
     pricePerEmployee: "€15.50",
@@ -20,7 +20,7 @@ const pricingData = [
     recommended: false,
   },
   {
-    scenario: "Bundle + SentinelOne Control",
+    scenario: "Bundle (MDM + SaaS Management) + SentinelOne Control",
     employees: 200,
     monthlyPrice: "€3,300",
     pricePerEmployee: "€16.50",
@@ -29,7 +29,7 @@ const pricingData = [
     recommended: true,
   },
   {
-    scenario: "Bundle + SentinelOne Complete",
+    scenario: "Bundle (MDM + SaaS Management) + SentinelOne Complete",
     employees: 200,
     monthlyPrice: "€4,100",
     pricePerEmployee: "€20.50",
