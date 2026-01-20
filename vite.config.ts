@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/swaybox-4e9b3d55/", // Configuração para GitHub Pages
   server: {
     host: "::",
     port: 8080,

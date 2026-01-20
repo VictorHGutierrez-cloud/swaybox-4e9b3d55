@@ -62,7 +62,46 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+### Deploy no GitHub Pages (Automático)
+
+O projeto está configurado para fazer deploy automático no GitHub Pages!
+
+**Passo a passo:**
+
+1. **Ative o GitHub Pages no repositório:**
+   - Vá em Settings → Pages no seu repositório GitHub
+   - Em "Source", selecione "GitHub Actions"
+   - Salve as configurações
+
+2. **Faça push do código:**
+   ```sh
+   git add .
+   git commit -m "Configure GitHub Pages"
+   git push origin main
+   ```
+
+3. **Aguarde o deploy:**
+   - Vá em Actions no GitHub
+   - O workflow "Deploy to GitHub Pages" vai rodar automaticamente
+   - Quando terminar, seu site estará em: `https://victorhgutierrez-cloud.github.io/swaybox-4e9b3d55/`
+
+**Nota:** O deploy acontece automaticamente toda vez que você fizer push na branch `main`.
+
+### Deploy Manual (Alternativa)
+
+Se preferir fazer deploy manual:
+
+```sh
+# 1. Compilar o projeto
+npm run build
+
+# 2. Fazer push da pasta dist para a branch gh-pages
+git subtree push --prefix dist origin gh-pages
+```
+
+### Deploy via Lovable
+
+Também pode usar o Lovable: abra [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) e clique em Share → Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 
